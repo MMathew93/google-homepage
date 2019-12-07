@@ -15,3 +15,13 @@ I took a break for breakfast, back at it trying to solve the header and footer s
 12/07/2019
 02:00pm
 I have completed the footer and search buttons. However the links in the footer are improperly spaced atm. It looks really close to a google homepage, must missing the sign in portion in the top right, that is the next area to set up, afterwards I can go through fioner details....maybe.
+
+12/07/2019
+02:46pm
+Welp it is like 90% done? Maybe? The issues I still have are:
+-Google apps icon is missing
+-google magnifying glass is missing in search bar
+-google sign in (blue button is not super aligned well)
+-footer urls are not spaced properly
+I think I should have done the header a lot different and commited to a navbar of some sorts, all in all not the worst lookign websote I guess.
+I used a lot of google and W3 resources, I'm not sure if it's considered cheating? I had to edit all of the code to what I specifically needed. Maybe I should have done more of it blind? The issue is I barely know jack and remembering all if the tags and CSS styles is still new. IDK

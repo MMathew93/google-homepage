@@ -21,13 +21,12 @@
 
 #rightnav-container {
     float: right;
-    padding-inline-end: 120px;
-
+    padding-inline-end: 85px;
 }
 
 #rightnav {
+    display: inline-block;
     font: 12px arial, sans-serif;
-    
 }
 
 #rightnav a{
