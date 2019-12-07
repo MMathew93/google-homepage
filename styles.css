@@ -4,11 +4,51 @@
     margin-right: auto;
     margin-bottom: 0px;
     border: 8px solid transparent;
+}
+
+#leftnav {
+    position: absolute;
+    padding-left: 15px;
+    font: 12px arial, sans-serif;
+}
+
+#leftnav a{
+    display: inline-block;
+    padding-right: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+#rightnav-container {
+    float: right;
+    padding-inline-end: 120px;
 
 }
+
+#rightnav {
+    font: 12px arial, sans-serif;
     
+}
 
+#rightnav a{
+    display: inline-block;
+    padding-right: 15px;
+    text-decoration: none;
+    color: black;
+}
 
+.button1 {
+    background-color: rgb(24, 141, 236);
+    position: absolute;
+    border: none;
+    color: white;
+    padding: 8px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    border-radius: 2px;
+    cursor: pointer;
+}
 
 #logo {
     display: block;
@@ -30,7 +70,6 @@
     border: 1px solid gray;
     border-radius: 22px;
     box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
-
 }
 
 #search-input {
@@ -39,6 +78,51 @@
     padding-top: 5px;
     width: 530px;
     font: 16px arial,sans-serif;
+}
 
+#button-container {
+    display: block;
+    position: center;
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+}
 
+.button {
+    background-color: rgb(242, 242, 242);
+    border: none;
+    color: black;
+    padding: 7px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 5px -110px 0px 130px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 38px;
+    background-color: rgb(242, 242, 242);
+    border-top: 1px solid #e4e4e4;
+}
+
+.footer a{
+    float: left;
+    display: block;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font: 12px arial,sans-serif;
 }
